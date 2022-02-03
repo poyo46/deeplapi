@@ -3,6 +3,9 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
+This is a [Flask](https://github.com/pallets/flask) server that provides the DeepL API.
+If you simply want to use DeepL API in Python, please visit https://github.com/DeepLcom/deepl-python
+
 ## Install
 
 ```
@@ -14,7 +17,6 @@ $ poetry install
 ## Run
 
 ```
-$ cd deeplapi
 $ poetry shell
 $ export DEEPL_AUTH_KEY=your auth key here
 $ python -m deeplapi.server
