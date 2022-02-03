@@ -1,0 +1,13 @@
+default: &default
+  host: localhost
+  port: 6174
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
+  host: 0.0.0.0
